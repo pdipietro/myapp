@@ -59,6 +59,7 @@ end
 
 group :development, :test do
   gem "rspec-rails"
+  gem 'ruby-debug'
 end
 
 gem "neo4j", ">= 2.2.3"
@@ -66,5 +67,7 @@ gem "neo4j", ">= 2.2.3"
 gem 'neo4j-community',">= 1.9"
 gem 'neo4j-advanced',">= 1.9"
 gem 'neo4j-enterprise',">= 1.9"
+
+
 
 #gem 'activemodel','3.2.15'

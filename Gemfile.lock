@@ -49,6 +49,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    columnize (0.3.6)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.0.2)
@@ -129,6 +130,10 @@ GEM
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4-java)
     rubyzip (0.9.9)
     sass (3.2.12)
     sass-rails (3.2.6)
@@ -184,6 +189,7 @@ DEPENDENCIES
   neo4j-enterprise (>= 1.9)
   rails (= 3.2.15)
   rspec-rails
+  ruby-debug
   sass-rails (~> 3.2.3)
   sdoc
   selenium-webdriver (= 2.35.1)
