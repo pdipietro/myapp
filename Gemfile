@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.15'
-gem "bootstrap-sass","2.3.2.0"
+gem 'bootstrap-sass', '2.3.2.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -58,15 +58,15 @@ end
 # gem 'debugger'
 
 group :development, :test do
-  gem "rspec-rails"
+  gem 'rspec-rails'
   gem 'ruby-debug'
 end
 
-gem "neo4j", ">= 2.2.3"
+gem 'neo4j', '>= 2.2.3'
 
-gem 'neo4j-community',">= 1.9"
-gem 'neo4j-advanced',">= 1.9"
-gem 'neo4j-enterprise',">= 1.9"
+gem 'neo4j-community', '>= 1.9'
+gem 'neo4j-advanced', '>= 1.9'
+gem 'neo4j-enterprise', '>= 1.9'
 
 
 
