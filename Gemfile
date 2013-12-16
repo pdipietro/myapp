@@ -35,6 +35,9 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.1'
+ # gem 'rb-inotify', '0.8.8'
+  gem 'libnotify', '0.5.9'
+
 end
 
 group :doc do
@@ -42,24 +45,16 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
-
 group :development, :test do
   gem 'rspec-rails'
-  gem 'ruby-debug'
+  gem 'ruby-debug', '0.10.5.rc9'
+  gem 'guard-rspec','1.2.1'
+
+  gem 'guard-spork'#, '1.2.0'
+  gem 'childprocess'#, '0.3.9'
+  gem 'spork-rails' #, '0.9.2'
+  gem 'rb-inotify', '~> 0.9'
+
 end
 
 gem 'neo4j', '>= 2.2.3'
@@ -68,6 +63,3 @@ gem 'neo4j-community', '>= 1.9'
 gem 'neo4j-advanced', '>= 1.9'
 gem 'neo4j-enterprise', '>= 1.9'
 
-
-
-#gem 'activemodel','3.2.15'
