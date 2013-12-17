@@ -441,3 +441,357 @@ Storage files: (filename : modification date - size)
 2013-12-16 19:09:00.861+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 111ms [total block time: 24.518s]
 2013-12-16 19:12:18.797+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 158ms [total block time: 24.676s]
 2013-12-16 19:12:44.142+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 149ms [total block time: 24.825s]
+2013-12-16 19:15:42.360+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2013-12-16 19:15:42.362+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is no longer ready
+2013-12-16 19:15:42.363+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2013-12-16 19:15:42.372+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /home/pdipietro/RubyProjects/myapp/db/neo4j-development/index/lucene.log
+2013-12-16 19:15:42.433+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2013-12-16 19:15:42.440+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log /home/pdipietro/RubyProjects/myapp/db/neo4j-development/nioneo_logical.log
+2013-12-16 19:15:42.442+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.relationshiptypestore.db.names hit=0 miss=2 switches=0 ooe=0
+2013-12-16 19:15:42.456+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.relationshiptypestore.db hit=0 miss=2 switches=0 ooe=0
+2013-12-16 19:15:42.464+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2013-12-16 19:15:42.473+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db.index.keys hit=0 miss=4 switches=0 ooe=0
+2013-12-16 19:15:42.482+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db.index hit=0 miss=4 switches=0 ooe=0
+2013-12-16 19:15:42.490+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2013-12-16 19:15:42.499+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db hit=16 miss=0 switches=0 ooe=0
+2013-12-16 19:15:42.512+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.relationshipstore.db hit=13 miss=0 switches=0 ooe=0
+2013-12-16 19:15:42.521+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.nodestore.db hit=22 miss=0 switches=0 ooe=0
+2013-12-16 19:15:42.527+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore hit=0 miss=24 switches=0 ooe=0
+2013-12-16 19:15:42.538+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2013-12-16 19:15:42.538+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2013-12-16 19:15:42.539+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2013-12-17 13:47:25.412+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2013-12-17 13:47:25.419+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=1623M
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=450M
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: identity_map=true
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: timestamps=true
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=1988M
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=1379M
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/home/pdipietro/RubyProjects/myapp/db/neo4j-development
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: online_backup_enabled=false
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=1563M
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: migration_thread=false
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: enable_rules=true
+2013-12-17 13:47:25.423+0000 INFO  [o.n.k.i.DiagnosticsManager]: storage_path=/home/pdipietro/RubyProjects/myapp/db/neo4j-development
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: LINUX_SCHEDULERS
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: NodeCache
+2013-12-17 13:47:25.427+0000 INFO  [o.n.k.i.DiagnosticsManager]: RelationshipCache
+2013-12-17 13:47:25.428+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2013-12-17 13:47:25.432+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 15.67 GB
+2013-12-17 13:47:25.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 11.43 GB
+2013-12-17 13:47:25.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 2.14 GB
+2013-12-17 13:47:25.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 16.00 GB
+2013-12-17 13:47:25.433+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 16.00 GB
+2013-12-17 13:47:25.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2013-12-17 13:47:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 134.65 MB
+2013-12-17 13:47:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 294.00 MB
+2013-12-17 13:47:25.435+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 444.50 MB
+2013-12-17 13:47:25.439+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2013-12-17 13:47:25.439+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2013-12-17 13:47:25.440+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=4.13 MB, used=4.00 MB, max=48.00 MB, threshold=0.00 B
+2013-12-17 13:47:25.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=87.00 MB, used=26.70 MB, max=87.00 MB, threshold=?
+2013-12-17 13:47:25.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=40.00 MB, used=8.93 MB, max=40.00 MB, threshold=?
+2013-12-17 13:47:25.442+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=167.00 MB, used=123.72 MB, max=333.00 MB, threshold=0.00 B
+2013-12-17 13:47:25.442+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=38.00 MB, used=37.56 MB, max=82.00 MB, threshold=0.00 B
+2013-12-17 13:47:25.442+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2013-12-17 13:47:25.443+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Linux; version: 3.11.0-14-generic; arch: amd64; cpus: 8
+2013-12-17 13:47:25.443+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 4096
+2013-12-17 13:47:25.443+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 78
+2013-12-17 13:47:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 16010@ubuntu
+2013-12-17 13:47:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2013-12-17 13:47:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Rome
+2013-12-17 13:47:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2013-12-17 13:47:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2013-12-17 13:47:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2013-12-17 13:47:25.444+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.45-b08
+2013-12-17 13:47:25.445+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2013-12-17 13:47:25.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-Djdk.home=, -Djruby.home=/home/pdipietro/.rvm/rubies/jruby-1.7.6, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/arm-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/i386-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/x86_64-Linux, -Xmx500m, -Xss2048k, -Xbootclasspath/a:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jruby.jar, -Djruby.compile.mode=OFF, -Djruby.debug.fullTrace=true]
+2013-12-17 13:47:25.446+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/json-1.8.1-java/lib/json/ext/parser.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/RubyMine-6.0.1/lib/jna.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/concurrentlinkedhashmap-lru-1.3.1.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/RubyMine-6.0.1/lib/log4j.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/slf4j-api-1.6.2.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/sunrsasign.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-lucene-index-1.9.5.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/localedata.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/therubyrhino_jar-1.7.4/jar/rhino-1.7R4.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-jmx-1.9.5.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/RubyMine-6.0.1/lib/jdom.jar
+2013-12-17 13:47:25.448+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-advanced-1.9.5-java/lib/neo4j-advanced/jars/neo4j-management-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/ruby-debug-base-0.10.5.rc9-java/lib/ruby_debug.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/RubyMine-6.0.1/lib/trove4j.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-udc-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/lucene-core-3.6.2.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/netty-3.6.3.Final.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/rt.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jce.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-consistency-check-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-backup-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-matching-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/scala-library-2.10.0.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-access-0.9.30.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jfr.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-classic-0.9.30.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-cluster-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-udc-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/RubyMine-6.0.1/lib/util.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-com-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/json-1.8.1-java/lib/json/ext/generator.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/zookeeper-3.3.2.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/charsets.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/server-api-1.9.5.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/ruby/shared/kryptcore.jar
+2013-12-17 13:47:25.449+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/server-api-1.9.5.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunec.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/RubyMine-6.0.1/lib/extensions.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-cypher-1.9.5.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/log4j-1.2.16.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/logback-core-0.9.30.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/dnsns.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/home/pdipietro/RubyProjects/myapp/
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/jsse.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-graph-algo-1.9.5.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/bouncy-castle-java-1.5.0147/lib/bcpkix-jdk15on-147.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunjce_provider.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/bouncy-castle-java-1.5.0147/lib/bcprov-jdk15on-147.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/zipfs.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/ruby/shared/kryptproviderjdk.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/geronimo-jta_1.1_spec-1.1.1.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6@global/gems/jruby-openssl-0.9.4/lib/jopenssl.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/lib/resources.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/ruby/shared/readline/jline-2.11.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-core-2.3.0-java/lib/neo4j-core/jars/neo4jrb-adaptor.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /usr/lib/jvm/jdk1.7.0_45/jre/classes
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.2] file:/usr/lib/jvm/jdk1.7.0_45/jre/lib/ext/sunpkcs11.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.1] file:/home/pdipietro/RubyMine-6.0.1/lib/bootstrap.jar
+2013-12-17 13:47:25.450+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-community-1.9.5-java/lib/neo4j-community/jars/neo4j-kernel-1.9.5.jar
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/ruby/shared/readline/readline.jar
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jruby.jar
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.0] file:/home/pdipietro/.rvm/gems/jruby-1.7.6/gems/neo4j-enterprise-1.9.5-java/lib/neo4j-enterprise/jars/neo4j-ha-1.9.5.jar
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: /home/pdipietro/RubyMine-6.0.1/bin
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: /home/pdipietro/RubyProjects/myapp
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/java/packages/lib/amd64
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib64
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: /lib64
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: /lib
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib
+2013-12-17 13:47:25.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.home = /home/pdipietro/.rvm/rubies/jruby-1.7.6
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /usr/lib/jvm/jdk1.7.0_45/jre/lib/amd64
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /home/pdipietro/RubyProjects/myapp
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = neo4rb
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: jdk.home = 
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.compile.mode = OFF
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: jffi.boot.library.path = /home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/arm-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/i386-Linux:/home/pdipietro/.rvm/rubies/jruby-1.7.6/lib/jni/x86_64-Linux
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /home/pdipietro
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Rome
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.debug.fullTrace = true
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.script = jruby
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = pdipietro
+2013-12-17 13:47:25.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: jruby.shell = /bin/sh
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org/jruby/Main --1.9 -X+O -e at_exit{sleep(1)};$stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) /home/pdipietro/.rvm/gems/jruby-1.7.6/gems/ruby-debug-ide-0.4.22/bin/rdebug-ide --disable-int-handler --port 35088 --dispatcher-port 33207 -- /home/pdipietro/RubyProjects/myapp/script/rails server -b 0.0.0.0 -p 3000 -e development
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.X11.XToolkit
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = gnome
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2013-12-17 13:47:25.453+0000 INFO  [o.n.k.i.DiagnosticsManager]: Linux scheduler information:
+2013-12-17 13:47:25.454+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-17 13:47:25.454+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-17 13:47:25.454+0000 INFO  [o.n.k.i.DiagnosticsManager]: noop [deadline] cfq 
+2013-12-17 13:47:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.455+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.456+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.456+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.456+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.456+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.456+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.456+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.456+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.457+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.457+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.457+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.457+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.457+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.457+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.458+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.458+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.458+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.458+0000 INFO  [o.n.k.i.DiagnosticsManager]: none
+2013-12-17 13:47:25.458+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2013-12-17 13:47:25.461+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface eth1:
+2013-12-17 13:47:25.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:20c:29ff:fe03:b62e%3
+2013-12-17 13:47:25.461+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.11.128
+2013-12-17 13:47:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface eth0:
+2013-12-17 13:47:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:20c:29ff:fe03:b624%2
+2013-12-17 13:47:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.10.81
+2013-12-17 13:47:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo:
+2013-12-17 13:47:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1%1
+2013-12-17 13:47:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2013-12-17 13:47:25.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2013-12-17 13:47:25.850+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=114b)
+2013-12-17 13:47:25.856+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=10b)
+2013-12-17 13:47:25.857+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db.strings] brickCount=0 brickSize=1445888b mappedMem=1445986304b (storeSize=128b)
+2013-12-17 13:47:25.858+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=190b)
+2013-12-17 13:47:25.859+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=36b)
+2013-12-17 13:47:25.861+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db.arrays] brickCount=0 brickSize=1638912b mappedMem=1638924288b (storeSize=128b)
+2013-12-17 13:47:25.866+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.propertystore.db] brickCount=0 brickSize=1701828b mappedMem=1701838848b (storeSize=328b)
+2013-12-17 13:47:25.869+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.relationshipstore.db] brickCount=0 brickSize=2084544b mappedMem=2084569088b (storeSize=165b)
+2013-12-17 13:47:25.872+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore.nodestore.db] brickCount=0 brickSize=471852b mappedMem=471859200b (storeSize=54b)
+2013-12-17 13:47:25.873+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2013-12-17 13:47:25.911+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/nioneo_logical.log.1] version=1, lastTxId=9 (clean)
+2013-12-17 13:47:26.057+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: /home/pdipietro/RubyProjects/myapp/db/neo4j-development/tm_tx_log.1
+2013-12-17 13:47:26.313+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [/home/pdipietro/RubyProjects/myapp/db/neo4j-development/index/lucene.log.1] version=1, lastTxId=1 (clean)
+2013-12-17 13:47:26.325+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2013-12-17 13:47:26.326+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1387205299821, id:3933653872206696946, store version: 13561656364791302]
+2013-12-17 13:47:26.326+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel 1.9.5
+2013-12-17 13:47:26.326+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2013-12-17 13:47:26.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel 1.9.5
+2013-12-17 13:47:26.327+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2013-12-17 13:47:26.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.0
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.0
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.0
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.0
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.0
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.0
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.0
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.0
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2013-12-17 13:47:26.332+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=6 high=5
+2013-12-17 13:47:26.333+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=5 high=4
+2013-12-17 13:47:26.333+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=2 high=1
+2013-12-17 13:47:26.333+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=8 high=7
+2013-12-17 13:47:26.333+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=4 high=3
+2013-12-17 13:47:26.333+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2013-12-17 13:47:26.333+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2013-12-17 13:47:26.333+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2013-12-17 13:47:26.333+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2013-12-17 13:47:26.334+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2013-12-17 13:47:26.334+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2013-12-17 13:47:26.334+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 25230176256 / 18425061376 / 73
+Storage files: (filename : modification date - size)
+2013-12-17 13:47:26.335+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.v0: 2013-12-16T20:15:42+0100 - 2.79 kB
+2013-12-17 13:47:26.336+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.336+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2013-12-17T14:47:25+0100 - 36.00 B
+2013-12-17 13:47:26.336+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2013-12-17T14:47:25+0100 - 190.00 B
+2013-12-17 13:47:26.336+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2013-12-17T14:47:26+0100 - 0.00 B
+2013-12-17 13:47:26.337+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2013-12-17T14:47:25+0100 - 0.00 B
+2013-12-17 13:47:26.337+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.337+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.337+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2013-12-17T14:47:25+0100 - 16.00 B
+2013-12-17 13:47:26.338+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2013-12-17T14:47:25+0100 - 114.00 B
+2013-12-17 13:47:26.338+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2013-12-17T14:47:25+0100 - 328.00 B
+2013-12-17 13:47:26.338+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2013-12-17T14:47:25+0100 - 4.00 B
+2013-12-17 13:47:26.338+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.338+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2013-12-17T14:47:25+0100 - 54.00 B
+2013-12-17 13:47:26.339+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2013-12-16T15:48:20+0100 - 11.00 B
+2013-12-17 13:47:26.339+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2013-12-17T14:47:25+0100 - 128.00 B
+2013-12-17 13:47:26.339+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2013-12-17T14:47:25+0100 - 128.00 B
+2013-12-17 13:47:26.339+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2013-12-16T15:48:19+0100 - 0.00 B
+2013-12-17 13:47:26.340+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2013-12-17T14:47:25+0100 - 10.00 B
+2013-12-17 13:47:26.340+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.340+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.341+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2013-12-17T14:47:25+0100 - 165.00 B
+2013-12-17 13:47:26.341+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2013-12-17T14:47:26+0100 - 95.17 kB
+2013-12-17 13:47:26.341+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.342+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.342+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.342+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2013-12-17T14:47:25+0100 - 54.00 B
+2013-12-17 13:47:26.342+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2013-12-17T14:47:25+0100 - 9.00 B
+2013-12-17 13:47:26.342+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2013-12-17 13:47:26.343+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.v0: 2013-12-16T20:15:42+0100 - 16.00 B
+2013-12-17 13:47:26.343+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2013-12-16T20:15:42+0100 - 40.00 B
+2013-12-17 13:47:26.344+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2013-12-17T14:47:26+0100 - 16.00 B
+2013-12-17 13:47:26.344+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2013-12-17T14:47:26+0100 - 4.00 B
+2013-12-17 13:47:26.344+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2013-12-17T14:47:26+0100 - 76.00 B
+2013-12-17 13:47:26.344+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2013-12-17 13:47:26.348+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2013-12-17 13:47:26.364+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2013-12-17 13:49:25.266+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3771ms [total block time: 3.771s]
+2013-12-17 13:49:27.005+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 109ms [total block time: 3.88s]
+2013-12-17 13:49:30.537+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 2018ms [total block time: 5.898s]
+2013-12-17 13:49:32.594+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 648ms [total block time: 6.546s]
+2013-12-17 13:49:34.214+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 515ms [total block time: 7.061s]
+2013-12-17 13:49:36.100+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 775ms [total block time: 7.836s]
+2013-12-17 13:49:37.818+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 510ms [total block time: 8.346s]
+2013-12-17 13:49:39.697+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 981ms [total block time: 9.327s]
+2013-12-17 13:49:41.295+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 792ms [total block time: 10.119s]
+2013-12-17 13:51:13.006+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 117ms [total block time: 10.236s]
+2013-12-17 13:51:33.438+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 116ms [total block time: 10.352s]
+2013-12-17 13:52:40.322+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 10.46s]
+2013-12-17 13:53:15.448+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 10.568s]
+2013-12-17 13:56:04.633+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 144ms [total block time: 10.712s]
+2013-12-17 13:56:07.038+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 188ms [total block time: 10.9s]
+2013-12-17 13:56:37.736+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 101ms [total block time: 11.001s]
+2013-12-17 13:57:13.826+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 103ms [total block time: 11.104s]
+2013-12-17 14:00:34.195+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 118ms [total block time: 11.222s]
+2013-12-17 14:04:00.371+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 198ms [total block time: 11.42s]
+2013-12-17 14:04:01.977+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 112ms [total block time: 11.532s]
+2013-12-17 14:04:02.221+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 141ms [total block time: 11.673s]
+2013-12-17 14:04:29.814+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 120ms [total block time: 11.793s]
+2013-12-17 14:23:03.548+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1186ms [total block time: 12.979s]
+2013-12-17 14:29:56.607+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 507ms [total block time: 13.486s]
+2013-12-17 14:43:23.959+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 214ms [total block time: 13.7s]
+2013-12-17 14:43:24.276+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 115ms [total block time: 13.815s]
+2013-12-17 14:44:25.654+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 102ms [total block time: 13.917s]
+2013-12-17 14:55:53.774+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 170ms [total block time: 14.087s]
+2013-12-17 14:56:13.835+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 136ms [total block time: 14.223s]
+2013-12-17 14:56:14.158+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 118ms [total block time: 14.341s]
+2013-12-17 14:56:35.428+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 153ms [total block time: 14.494s]
+2013-12-17 14:59:09.046+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 254ms [total block time: 14.748s]
+2013-12-17 15:02:08.392+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 139ms [total block time: 14.887s]
+2013-12-17 15:02:11.529+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 108ms [total block time: 14.995s]
+2013-12-17 15:02:13.277+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 151ms [total block time: 15.146s]
+2013-12-17 15:02:17.332+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 114ms [total block time: 15.26s]
+2013-12-17 15:06:40.353+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 203ms [total block time: 15.463s]
+2013-12-17 15:17:30.975+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 113ms [total block time: 15.576s]
+2013-12-17 16:31:45.311+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1173ms [total block time: 16.749s]
+2013-12-17 18:21:08.017+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 420ms [total block time: 17.169s]
+2013-12-17 18:55:07.925+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 109ms [total block time: 17.278s]
+2013-12-17 18:57:21.177+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 177ms [total block time: 17.455s]
+2013-12-17 19:00:09.573+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 102ms [total block time: 17.557s]
+2013-12-17 19:03:50.538+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 104ms [total block time: 17.661s]
+2013-12-17 19:04:00.256+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 138ms [total block time: 17.799s]
+2013-12-17 19:04:00.765+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 107ms [total block time: 17.906s]
+2013-12-17 19:05:08.134+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 197ms [total block time: 18.103s]
+2013-12-17 19:08:05.775+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 103ms [total block time: 18.206s]
+2013-12-17 19:08:26.863+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 180ms [total block time: 18.386s]
+2013-12-17 19:08:48.368+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 170ms [total block time: 18.556s]
+2013-12-17 19:42:41.408+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 125ms [total block time: 18.681s]
+2013-12-17 19:43:17.603+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 174ms [total block time: 18.855s]

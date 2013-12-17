@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'spork'
+require 'capybara'
 
 Spork.prefork do
   # Loading more in this block will cause your tests to run faster. However,
@@ -10,6 +11,10 @@ Spork.prefork do
   require File.expand_path("../../config/environment", __FILE__)
   require 'rspec/rails'
   require 'rspec/autorun'
+
+#  $:.unshift(File.expand_path("rb/testing/patch/common", ENV["RUBYMINE_HOME"]))
+#  $:.unshift(File.expand_path("rb/testing/patch/bdd", ENV["RUBYMINE_HOME"]))
+
 
   # Requires supporting ruby files with custom matchers and macros, etc,
   # in spec/support/ and its subdirectories.
@@ -37,6 +42,9 @@ Spork.prefork do
     # automatically. This will be the default behavior in future versions of
     # rspec-rails.
     config.infer_base_class_for_anonymous_controllers = false
+
+    config.include Capybara::DSL
+
   end
 end
 
