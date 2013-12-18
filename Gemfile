@@ -36,8 +36,9 @@ group :test do
   gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.1'
  # gem 'rb-inotify', '0.8.8'
+  gem 'rb-inotify', '~> 0.9'
   gem 'libnotify', '0.5.9'
-
+ # gem 'zeus'
 end
 
 group :doc do
@@ -48,13 +49,11 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'ruby-debug', '0.10.5.rc9'
-  gem 'guard-rspec','1.2.1'
 
+  gem 'guard-rspec','1.2.1'
   gem 'guard-spork'#, '1.2.0'
   gem 'childprocess'#, '0.3.9'
   gem 'spork-rails' #, '0.9.2'
-  gem 'rb-inotify', '~> 0.9'
-
 end
 
 gem 'neo4j', '>= 2.2.3'
